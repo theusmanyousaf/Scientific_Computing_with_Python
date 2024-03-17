@@ -1,8 +1,15 @@
-text = 'Hello World' # text variable of type 'str'
+text = 'Hello Zaira' # text variable of type 'str'
 shift = 3
+
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
+encrypted_text = ''
 
 for char in text.lower():
-    index = alphabet.find(char)
-    print(char, index)
-    new_index = index + shift
+    if char == ' ':
+        encrypted_text += char
+    else:
+        index = alphabet.find(char)
+        new_index = (index + shift) % len(alphabet)
+        encrypted_text += alphabet[new_index]
+print('plain text:', text)
+print('encrypted text:', encrypted_text)
