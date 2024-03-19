@@ -1,5 +1,5 @@
-text = 'Hello Zaira' # text variable of type 'str'
-custom_key = 'python'
+text = 'mrttaqrhknsw ih puggrur'
+custom_key = 'happycoding'
 
 def vigenere(message, key, direction=1):
     key_index = 0
@@ -29,8 +29,8 @@ def encrypt(message, key):
     
 def decrypt(message, key):
     return vigenere(message, key, -1)
-    
-encryption = encrypt(text, custom_key)
-print(encryption)
-decryption = decrypt(encryption, custom_key)
-print(decryption)
+
+print(f'\nEncrypted text: {text}') # f-strings provide a way to embed expressions inside string literals, using a minimal syntax
+print(f'Key: {custom_key}')
+decryption = decrypt(text, custom_key)
+print(f'\nDecrypted text: {decryption}\n')
