@@ -44,3 +44,7 @@ def main():
         elif choice == '5':
             print('Exiting the program.')
             break
+
+# If the value of __name__ is set to '__main__', it implies that the current script is the main program, and not a module.
+if __name__ == '__main__':
+    main()
