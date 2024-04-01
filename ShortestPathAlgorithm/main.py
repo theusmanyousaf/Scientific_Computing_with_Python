@@ -1,9 +1,6 @@
-copper = {
-    'species': 'guinea pig',
-    'age': 2
+my_graph = {
+    'A': ['B', 'D'],
+    'B': ['A', 'C'],
+    'C': ['B', 'D'],
+    'D': ['A', 'C']
 }
-
-copper['food'] = 'hay'
-copper['species'] = 'Cavia porcellus'
-del copper['age']
-print(copper)
