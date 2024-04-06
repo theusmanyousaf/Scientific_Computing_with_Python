@@ -7,3 +7,4 @@
 <h3>5. Learn Regular Expressions by Building a Password Generator</h3>
 <h3>6. Learn Algorithm Design by Building a Shortest Path Algorithm</h3>
 <h3>7. Learn Recursion by Solving the Tower of Hanoi Puzzle</h3>
+<h3>7. Learn Data Structures by Building the Merge Sort Algorithm</h3>
