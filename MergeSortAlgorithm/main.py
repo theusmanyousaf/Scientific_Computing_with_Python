@@ -1,4 +1,6 @@
 def merge_sort(array):
+    if len(array) <= 1:
+        return
     
     middle_point = len(array) // 2
     left_part = array[:middle_point]
