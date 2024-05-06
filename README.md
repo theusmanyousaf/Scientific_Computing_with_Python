@@ -9,3 +9,4 @@
 <h3>7. Learn Recursion by Solving the Tower of Hanoi Puzzle</h3>
 <h3>8. Learn Data Structures by Building the Merge Sort Algorithm</h3>
 <h3>9. Learn Classes and Objects by Building A Sudoku Solver</h3>
+<h3>10. Learn Tree Traversal by Building A Binary Search Tree</h3>
