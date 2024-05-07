@@ -3,3 +3,9 @@ class TreeNode:
         self.key = key
         self.left = None
         self.right = None
+
+class BinarySearchTree:
+    def __init__(self):
+        self.root = None
+
+    
