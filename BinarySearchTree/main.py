@@ -19,3 +19,9 @@ class BinarySearchTree:
         elif key > node.key:
             node.right = self._insert(node.right, key)
         return node
+    
+    def search(self, key):
+        return self._search(self.root, key)
+
+    def _search(self, node, key):
+        pass
