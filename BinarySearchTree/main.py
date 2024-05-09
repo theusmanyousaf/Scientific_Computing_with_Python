@@ -29,3 +29,9 @@ class BinarySearchTree:
         if key < node.key:
             return self._search(node.left, key)
         return self._search(node.right, key)
+    
+    def delete(self, key):
+        self.root = self._delete(self.root, key)
+
+    def _delete(self, node, key):
+        pass
