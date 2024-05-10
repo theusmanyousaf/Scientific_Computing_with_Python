@@ -1,4 +1,5 @@
 class TreeNode:
+
     def __init__(self, key):
         self.key = key
         self.left = None
@@ -8,6 +9,7 @@ class TreeNode:
         return str(self.key)
 
 class BinarySearchTree:
+
     def __init__(self):
         self.root = None
 
@@ -60,3 +62,9 @@ class BinarySearchTree:
         while node.left is not None:
             node = node.left
         return node.key
+
+    def _inorder_traversal(self, node, result):
+        if node:
+            self._inorder_traversal(node.left, result)
+            result.append(node.key)
+            self._inorder_traversal(node.right, result)
