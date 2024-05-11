@@ -73,3 +73,9 @@ class BinarySearchTree:
         result = []
         self._inorder_traversal(self.root, result)
         return result
+
+bst = BinarySearchTree()
+nodes = [50, 30, 20, 40, 70, 60, 80]
+
+for node in nodes:
+    bst.insert(node)
